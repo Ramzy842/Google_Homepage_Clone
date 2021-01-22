@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    background: rgb(255, 255, 255);
+    position: relative;
+    
+}
+
+ul.list{
+    
+    position: absolute;
+    right: 0px;
+    padding: 0px 10px 15px 0px;
+    margin: -4px 10px 0 0;
+    
+    
+}
+
+.list li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    
+}
+
+.links a{
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(43, 40, 40);
+    
+}
+
+.fourth-link a img{
+    display: inline-block;
+    text-decoration: none;
+    transform: translateY(10px);
+    border-radius: 40px;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.main img{
+    margin-bottom: 160px;
+    transform: translateY(10px);
+}
+
+.main input{
+    position: relative;
+    top: -126px;
+    width: 586px;
+    height: 47px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding-left: 32px;
+    font-size: 14px; 
+    box-shadow: 0.5px 0.5px 10px -3px grey;  
+}
+
+.buttons{
+   
+    position: relative;
+    top: -100px;
+    padding: 8px;
+}
+
+.buttons button{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: rgba(233, 233, 233, 0.3);
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+    color: rgb(53, 53, 53);
+    border-radius: 3px;
+}
+
+button.first-btn{
+    margin-right: 6px;
+}
+.inline-grp{
+    
+    padding: 8px;
+    font-size: 13px;
+    position: relative;
+    top: -84px;
+}
+
+.inline-grp p, .inline-grp a{
+    display: inline;
+    width: 250px;
+    text-decoration: none;
+    
+}
+
+.ftr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 255, 255);  
+    height: 140px;
+    align-items: flex-end;
+    padding: 5px 0 0 5px;
+    
+    
+}
+
+
+
+.left-list{
+    display: flex;
+    list-style: none;
+    padding-left: 24px; 
+    background-color: rgba(228, 228, 228, 0.6);
+    height: 30px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(219, 219, 219);
+    
+}
+
+.left-list li{
+   padding-right: 23px;
+   cursor: pointer;
+   align-self: center;
+   margin-bottom: 0;
+   
+
+}
+
+.left-list li a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-size: 14px;
+    
+ }
+
+ .right-list{
+    display: flex;
+    list-style: none;
+    padding-right: 24px; 
+    background-color: rgba(228, 228, 228, 0.6); 
+    height: 30px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: flex-end;
+    border-top: 1px solid rgb(219, 219, 219);
+    
+ }
+
+ .right-list li{
+    padding-right: 23px;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 0;
+ 
+ }
+ 
+ .right-list li a{
+     text-decoration: none;
+     color: rgb(104, 104, 104);
+     font-size: 14px;
+  }
+
+
+  .left-list li a:hover{
+      border-bottom: 1px solid rgb(104, 104, 104) ;
+  }
+
+  .right-list li a:hover{
+    border-bottom: 1px solid rgb(104, 104, 104) ;
+}
+.buttons button:hover{
+    box-shadow: 0.2px 0.2px 2px 0px grey; 
+    border-radius: 2px;
+}
+
+.links a:hover{
+   border-bottom: 1px solid  rgb(43, 40, 40);
+}
+
+.fourth-link a:hover {
+    border-bottom: none;
+ }
