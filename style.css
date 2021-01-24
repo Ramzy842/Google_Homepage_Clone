@@ -55,11 +55,13 @@ ul.list{
     justify-content: center;
    
     
+    
 }
 
 .main img{
     margin-bottom: 160px;
     transform: translateY(10px);
+    
 }
 
 .main input{
@@ -71,8 +73,9 @@ ul.list{
     outline: none;
     border: none;
     padding-left: 32px;
+    padding-right: 32px;
     font-size: 14px; 
-    box-shadow: 0.5px 0.5px 10px -3px grey;  
+    box-shadow: 0.5px 0.5px 10px -3px grey;
 }
 
 .buttons{
@@ -118,7 +121,7 @@ button.first-btn{
     height: 140px;
     align-items: flex-end;
     padding: 5px 0 0 5px;
-    
+    margin: 0;
     
 }
 
@@ -127,14 +130,15 @@ button.first-btn{
 .left-list{
     display: flex;
     list-style: none;
-    padding-left: 24px; 
-    background-color: rgba(228, 228, 228, 0.6);
+    padding-left: 24px;
+    background-color: rgba(228, 228, 228, 0.6); 
     height: 30px;
-    margin-bottom: 0px;
+    margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid rgb(219, 219, 219);
-    
+    position: relative;
+    left: -5px;
 }
 
 .left-list li{
@@ -159,12 +163,15 @@ button.first-btn{
     padding-right: 24px; 
     background-color: rgba(228, 228, 228, 0.6); 
     height: 30px;
-    margin-bottom: 0px;
+    margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: flex-end;
     border-top: 1px solid rgb(219, 219, 219);
-    
+    position: absolute;
+    left: 50%;
+    right: 0px;
+    bottom: -0px;
  }
 
  .right-list li{
